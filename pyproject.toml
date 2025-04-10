@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "openai-test"
+version = "0.1.0"
+description = ""
+authors = ["Etherbloom <etherbloom@mailbox.org>"]
+# readme = "README.md"
+# license = "BSD"
+packages = [
+  { include = "openai-test" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^1.72.0"
+langchain = "^0.3.23"
+pinecone = "^6.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
