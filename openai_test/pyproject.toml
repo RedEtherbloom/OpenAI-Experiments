@@ -6,7 +6,7 @@ authors = ["Etherbloom <etherbloom@mailbox.org>"]
 # readme = "README.md"
 # license = "BSD"
 packages = [
-  { include = "openai-test" }
+  { include = "src" }
 ]
 
 [tool.poetry.dependencies]
